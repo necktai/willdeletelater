@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -c -I ./includes
+CFLAGS = -Wall -Wextra -Werror -c
 
 NAME = libft.a
 
