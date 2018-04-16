@@ -38,7 +38,6 @@ all: $(NAME)
 
 $(NAME): $(OBJECTS)
 	ar rc $(NAME) $(OBJECTS)
-	ranlib $(NAME)
 %.o: %.c
 	$(CC) $(CFLAGS) -o $@ $<
 
