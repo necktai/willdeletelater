@@ -6,7 +6,7 @@
 /*   By: ntai <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/24 18:35:22 by ntai              #+#    #+#             */
-/*   Updated: 2018/04/07 23:10:09 by ntai             ###   ########.fr       */
+/*   Updated: 2018/04/27 21:50:39 by ntai             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,18 +38,18 @@ typedef	struct	s_list
 	struct s_list	*next;
 }				t_list;
 
-// void			ft_div_mod(int a, int b, int *div, int *mod);
-// t_list			*ft_list_last(t_list *begin_list);
-// int				ft_list_size(t_list *begin_list);
-// int				ft_sqrt(int nb);
-// int				ft_str_is_printable(char *str);
-// int				ft_iterative_factorial(int nb);
-// int				ft_recursive_factorial(int nb);
-// int				ft_is_prime(int nb);
-// int				ft_iterative_power(int nb, int power);
-// int				ft_recursive_power(int nb, int power);
-// void			ft_swap(int *a, int *b);
-// char			*ft_strrev(char *new_string);
+void			ft_div_mod(int a, int b, int *div, int *mod);
+t_list			*ft_list_last(t_list *begin_list);
+int				ft_list_size(t_list *begin_list);
+int				ft_sqrt(int nb);
+int				ft_str_is_printable(char *str);
+int				ft_iterative_factorial(int nb);
+int				ft_recursive_factorial(int nb);
+int				ft_is_prime(int nb);
+int				ft_iterative_power(int nb, int power);
+int				ft_recursive_power(int nb, int power);
+void			ft_swap(int *a, int *b);
+char			*ft_strrev(char *new_string);
 
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void			ft_lstiter(t_list *lst, void (*f)(t_list *elem));
